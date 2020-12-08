@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <script src="buttons.js" defer></script>
+    <script src="form.js" defer ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="nav_bar">
+            <div>
+                <button class="my_profile">Мой профиль</button>
+            </div>
+            <div>
+                <button class="blog">Блог</button>
+            </div>
+            <div>
+                <button class="add_article">Добавить Статью</button>
+            </div>
+            <div>
+                <button class="author" >Авторы</button>
+            </div>
+            <div class="reg_atzr">
+                <button class="authorization">Войти</button>
+            </div>
+            <div >
+                <button class="registration">Регистрация</button>
+            </div>
+            <div>
+                <button class="exit">Выход</button>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form-group">
+                <label class="mark" for="Name">Имя</label><br/>
+                <input type="text" name="Name" id="Name" class="input_form" placeholder="Алексей">
+            </div>
+            <div class="form-group">
+                <label class="mark" for="Email">Email</label><br/>
+                <input type="text" name="Email" id="Email" class="input_form" placeholder="Alexey@mail.ru" >
+            </div>
+            <div class="form-group">
+                <label class="mark" for="Password">Пароль</label><br/>
+                <input type="password" name="Password" id="Password" class="input_form" placeholder="Пароль" >
+            </div>
+            <div class="form-group">
+                <label class="mark" for="Position">Должность</label><br/>
+                <input type="text" name="Position" id="Position"" class="input_form" placeholder=".Net Developer Senior" >
+            </div>
+            <div class="form-group">
+                <label class="mark" for="Company">Компания</label><br/>
+                <input type="text" name="Company" id="Company" class="input_form" placeholder="Microsoft" >
+            </div>
+            <div class="form-group">
+                <button type="submit" onclick="Send()" >Зарегистрироваться</button>
+            </div>
+        </div>
+     </div> 
+</body>
+</html>
